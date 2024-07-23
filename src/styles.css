@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7a7a7a;
+}
+
+.chk {
+    color: white;
+}
+
+.notes {
+    list-style-type: none;
+    gap: 10px;
+    padding: 0;
+}
+
+.post-it {
+    height: 220px;
+    width: 290px;
+    background-color: #ffeb3b;
+    border: 1px solid #000000;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    transform: rotate(-3deg);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.rotate-1 {
+    transform: rotate(2deg);
+}
+
+.importante {
+    background-color: #f44336;
+    color: black;
+    transform: rotate(-3deg);
+}
